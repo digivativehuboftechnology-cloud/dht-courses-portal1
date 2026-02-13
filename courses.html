@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHT - Courses | Professional Skill Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <h1>Digivative Hub of <span>Technology</span></h1>
+                    <p>Professional Skill Development</p>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="enroll.html" class="btn">Enroll Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Our Courses</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Courses</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Filter -->
+    <section class="courses-page">
+        <div class="container">
+            <div class="courses-header">
+                <h2>Professional Skill Development Courses</h2>
+                <p>We offer a range of courses designed to help university students bridge the gap between theory and practice. Tailored for graduates in Engineering, Computer Science, Business, Statistics, Economics, Data Sciences and Research and Thesis Writing.</p>
+            </div>
+            
+            <div class="courses-filter">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="tech">Technology</button>
+                <button class="filter-btn" data-filter="design">Design & Engineering</button>
+                <button class="filter-btn" data-filter="research">Research & Analysis</button>
+            </div>
+            
+            <div class="courses-container" id="coursesContainer">
+                <!-- Courses will be loaded dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Categories -->
+    <section class="course-categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Browse by Category</h2>
+                <p class="section-subtitle">Find the perfect course for your career goals</p>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming & Development</h3>
+                    <p>8 Courses</p>
+                    <a href="#" class="btn-link">View Courses</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data Science & Analytics</h3>
+                    <p>6 Courses</p>
+                    <a href="#" class="btn-link">View Courses</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>4 Courses</p>
+                    <a href="#" class="btn-link">View Courses</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Engineering & Design</h3>
+                    <p>5 Courses</p>
+                    <a href="#" class="btn-link">View Courses</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Creative & Multimedia</h3>
+                    <p>4 Courses</p>
+                    <a href="#" class="btn-link">View Courses</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Research & Writing</h3>
+                    <p>3 Courses</p>
+                    <a href="#" class="btn-link">View Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>DHT</h3>
+                    </div>
+                    <p>Professional skill development courses designed to bridge the gap between academic theory and practical job market requirements.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="enroll.html">Enroll Now</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Popular Courses</h4>
+                    <ul>
+                        <li><a href="courses.html#ai-ml">AI and Machine Learning</a></li>
+                        <li><a href="courses.html#web-dev">Web Development</a></li>
+                        <li><a href="courses.html#data-science">Data Science</a></li>
+                        <li><a href="courses.html#autocad">AutoCAD Training</a></li>
+                        <li><a href="courses.html#graphic-design">Graphic Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Chaseup Mall (5th Floor), Multan</li>
+                        <li><i class="fas fa-phone"></i> +92 300 123 4567</li>
+                        <li><i class="fas fa-envelope"></i> info@dht.edu.pk</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Digivative Hub of Technology. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Course data
+        const courses = [
+            {
+                id: 1,
+                title: "Thesis & Research Writing",
+                icon: "fas fa-file-alt",
+                description: "Master academic writing, research methodology, and thesis preparation for higher education and research careers.",
+                tags: ["Academic", "Writing", "Research", "Methodology"],
+                image: "https://images.unsplash.com/photo-1456513080510-3449c76e9a16?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 8,000",
+                duration: "6 Weeks",
+                level: "Beginner",
+                rating: 4.7,
+                category: "research",
+                students: 45
+            },
+            {
+                id: 2,
+                title: "Statistical Analysis Software",
+                icon: "fas fa-chart-bar",
+                description: "Learn industry-standard tools: SPSS, R-Studio, Minitab, Excel Data Analysis ToolPak, Tableau, and Python for data analysis.",
+                tags: ["SPSS", "R-Studio", "Tableau", "Python", "Excel"],
+                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 12,000",
+                duration: "8 Weeks",
+                level: "Intermediate",
+                rating: 4.8,
+                category: "research",
+                students: 68
+            },
+            {
+                id: 3,
+                title: "Programming Languages",
+                icon: "fas fa-code",
+                description: "Comprehensive programming courses in Python, Java, C++, JavaScript, R, MATLAB, and SQL for software development.",
+                tags: ["Python", "Java", "C++", "JavaScript", "SQL", "MATLAB"],
+                image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 15,000",
+                duration: "10 Weeks",
+                level: "Advanced",
+                rating: 4.9,
+                category: "tech",
+                students: 92
+            },
+            {
+                id: 4,
+                title: "Website Development",
+                icon: "fas fa-laptop-code",
+                description: "Full-stack web development training covering HTML, CSS, JavaScript, React, and WordPress.",
+                tags: ["HTML/CSS", "JavaScript", "React", "WordPress", "Full Stack"],
+                image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 14,000",
+                duration: "10 Weeks",
+                level: "Intermediate",
+                rating: 4.8,
+                category: "tech",
+                students: 78
+            },
+            {
+                id: 5,
+                title: "AI and Machine Learning",
+                icon: "fas fa-robot",
+                description: "Cutting-edge AI and ML courses covering algorithms, neural networks, and real-world applications.",
+                tags: ["AI", "Machine Learning", "Deep Learning", "Neural Networks"],
+                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 18,000",
+                duration: "12 Weeks",
+                level: "Advanced",
+                rating: 4.9,
+                category: "tech",
+                students: 55
+            },
+            {
+                id: 6,
+                title: "Data Sciences and Visualization",
+                icon: "fas fa-database",
+                description: "Data science fundamentals, analytics, and visualization techniques for turning data into insights.",
+                tags: ["Data Science", "Analytics", "Visualization", "Big Data"],
+                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 16,000",
+                duration: "10 Weeks",
+                level: "Intermediate",
+                rating: 4.7,
+                category: "tech",
+                students: 63
+            },
+            {
+                id: 7,
+                title: "AutoCAD (Civil & Electrical)",
+                icon: "fas fa-drafting-compass",
+                description: "Professional AutoCAD training for civil and electrical engineering design and drafting.",
+                tags: ["AutoCAD", "Civil", "Electrical", "Engineering", "Design"],
+                image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 10,000",
+                duration: "8 Weeks",
+                level: "Intermediate",
+                rating: 4.6,
+                category: "design",
+                students: 47
+            },
+            {
+                id: 8,
+                title: "Matlab (Engineering & Simulation)",
+                icon: "fas fa-calculator",
+                description: "MATLAB programming for engineering simulations, data analysis, and mathematical modeling.",
+                tags: ["MATLAB", "Simulation", "Engineering", "Modeling"],
+                image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 9,000",
+                duration: "6 Weeks",
+                level: "Intermediate",
+                rating: 4.7,
+                category: "tech",
+                students: 52
+            },
+            {
+                id: 9,
+                title: "Video Editing & Graphic Designing",
+                icon: "fas fa-film",
+                description: "Creative courses in video editing, graphic design, and multimedia production for digital media careers.",
+                tags: ["Video Editing", "Graphic Design", "Multimedia", "Creative"],
+                image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                price: "PKR 11,000",
+                duration: "8 Weeks",
+                level: "Beginner",
+                rating: 4.6,
+                category: "design",
+                students: 71
+            }
+        ];
+
+        // Function to generate rating stars
+        function generateRatingStars(rating) {
+            let stars = '';
+            const fullStars = Math.floor(rating);
+            const hasHalfStar = rating % 1 >= 0.5;
+            
+            for (let i = 1; i <= 5; i++) {
+                if (i <= fullStars) {
+                    stars += '<i class="fas fa-star"></i>';
+                } else if (i === fullStars + 1 && hasHalfStar) {
+                    stars += '<i class="fas fa-star-half-alt"></i>';
+                } else {
+                    stars += '<i class="far fa-star"></i>';
+                }
+            }
+            return stars;
+        }
+
+        // Function to generate course cards
+        function generateCourseCards(filter = 'all') {
+            const container = document.getElementById('coursesContainer');
+            container.innerHTML = '';
+            
+            const filteredCourses = filter === 'all' 
+                ? courses 
+                : courses.filter(course => course.category === filter);
+            
+            filteredCourses.forEach(course => {
+                const courseCard = document.createElement('div');
+                courseCard.className = 'course-card';
+                
+                courseCard.innerHTML = `
+                    <div class="course-image">
+                        <img src="${course.image}" alt="${course.title}" loading="lazy">
+                        <div class="course-overlay">
+                            <span class="course-price">${course.price}</span>
+                            <span class="course-category">${course.category}</span>
+                        </div>
+                        <div class="course-icon">
+                            <i class="${course.icon}"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <h3>${course.title}</h3>
+                        <p>${course.description}</p>
+                        <div class="course-tags">
+                            ${course.tags.slice(0, 4).map(tag => `<span class="tag">${tag}</span>`).join('')}
+                        </div>
+                        <div class="course-meta">
+                            <div>
+                                <span class="course-duration"><i class="far fa-clock"></i> ${course.duration}</span>
+                                <span class="course-level"><i class="fas fa-signal"></i> ${course.level}</span>
+                            </div>
+                            <div class="course-rating">
+                                ${generateRatingStars(course.rating)}
+                                <span>${course.rating}</span>
+                            </div>
+                        </div>
+                        <div class="course-footer">
+                            <span class="course-students"><i class="fas fa-users"></i> ${course.students} students</span>
+                            <a href="enroll.html?course=${encodeURIComponent(course.title)}" class="btn btn-small">Enroll Now</a>
+                        </div>
+                    </div>
+                `;
+                
+                container.appendChild(courseCard);
+            });
+        }
+
+        // Filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            generateCourseCards();
+            
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    generateCourseCards(this.dataset.filter);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

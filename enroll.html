@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHT - Enroll Now | Start Your Career</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <h1>Digivative Hub of <span>Technology</span></h1>
+                    <p>Professional Skill Development</p>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="enroll.html" class="btn active">Enroll Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Enroll Now</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Enroll</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrollment Form Section -->
+    <section class="enrollment-page">
+        <div class="container">
+            <div class="enrollment-page-grid">
+                <div class="enrollment-info-panel">
+                    <h2>Start Your Professional Journey Today</h2>
+                    <p class="lead">Limited seats available! Our next batch is starting soon.</p>
+                    
+                    <div class="benefits-list">
+                        <h3>Why Enroll at DHT?</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Industry-recognized certification</li>
+                            <li><i class="fas fa-check-circle"></i> Job placement assistance for top performers</li>
+                            <li><i class="fas fa-check-circle"></i> Hands-on practical training with real projects</li>
+                            <li><i class="fas fa-check-circle"></i> Flexible payment plans available</li>
+                            <li><i class="fas fa-check-circle"></i> Lifetime access to course materials</li>
+                            <li><i class="fas fa-check-circle"></i> Free career counseling session</li>
+                            <li><i class="fas fa-check-circle"></i> Networking opportunities with industry experts</li>
+                            <li><i class="fas fa-check-circle"></i> Interview preparation and resume building</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-info">
+                        <h3>Course Fees</h3>
+                        <p>All courses are affordably priced with easy installment plans</p>
+                        <div class="price-highlight">
+                            <span class="price-label">Starting from</span>
+                            <span class="price-amount">PKR 8,000</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-box">
+                        <h3>Have Questions?</h3>
+                        <p><i class="fas fa-phone"></i> Call us: +92 300 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> Email: admissions@dht.edu.pk</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="enrollment-form-panel">
+                    <div class="form-header">
+                        <h2>Request Information</h2>
+                        <p>Fill out the form below and our admissions team will contact you within 24 hours</p>
+                    </div>
+                    
+                    <form id="enrollmentForm" class="enrollment-form-detailed">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" placeholder="Enter your first name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" placeholder="Enter your last name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" placeholder="03xx-xxxxxxx" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="courseInterest">Select Course *</label>
+                                <select id="courseInterest" required>
+                                    <option value="" disabled selected>Choose a course</option>
+                                    <option value="Thesis & Research Writing">Thesis & Research Writing</option>
+                                    <option value="Statistical Analysis Software">Statistical Analysis Software</option>
+                                    <option value="Programming Languages">Programming Languages</option>
+                                    <option value="Website Development">Website Development</option>
+                                    <option value="AI and Machine Learning">AI and Machine Learning</option>
+                                    <option value="Data Sciences and Visualization">Data Sciences and Visualization</option>
+                                    <option value="AutoCAD (Civil & Electrical)">AutoCAD (Civil & Electrical)</option>
+                                    <option value="Matlab (Engineering & Simulation)">Matlab (Engineering & Simulation)</option>
+                                    <option value="Video Editing & Graphic Designing">Video Editing & Graphic Designing</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="qualification">Highest Qualification</label>
+                                <select id="qualification">
+                                    <option value="" disabled selected>Select qualification</option>
+                                    <option value="Bachelor's">Bachelor's Degree</option>
+                                    <option value="Master's">Master's Degree</option>
+                                    <option value="Intermediate">Intermediate</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message / Questions</label>
+                            <textarea id="message" placeholder="Tell us about your background or any specific questions you have" rows="4"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" required>
+                                <span>I agree to receive information about courses and admissions. *</span>
+                            </label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" checked>
+                                <span>Subscribe to newsletter for updates on new courses and offers</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Submit Enrollment Request</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                    
+                    <div class="secure-info">
+                        <i class="fas fa-lock"></i>
+                        <span>Your information is secure and will not be shared with third parties</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Batch Info -->
+    <section class="next-batch">
+        <div class="container">
+            <div class="batch-info">
+                <div class="batch-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="batch-details">
+                    <h3>Next Batch Starting Soon!</h3>
+                    <p>Registration deadline: 15th January 2024</p>
+                    <p>Classes begin: 20th January 2024</p>
+                </div>
+                <div class="batch-cta">
+                    <span class="batch-tag">Limited Seats</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same footer as other pages -->
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>DHT</h3>
+                    </div>
+                    <p>Professional skill development courses designed to bridge the gap between academic theory and practical job market requirements.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="enroll.html">Enroll Now</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Popular Courses</h4>
+                    <ul>
+                        <li><a href="courses.html#ai-ml">AI and Machine Learning</a></li>
+                        <li><a href="courses.html#web-dev">Web Development</a></li>
+                        <li><a href="courses.html#data-science">Data Science</a></li>
+                        <li><a href="courses.html#autocad">AutoCAD Training</a></li>
+                        <li><a href="courses.html#graphic-design">Graphic Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Chaseup Mall (5th Floor), Multan</li>
+                        <li><i class="fas fa-phone"></i> +92 300 123 4567</li>
+                        <li><i class="fas fa-envelope"></i> info@dht.edu.pk</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Digivative Hub of Technology. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Get course from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const courseParam = urlParams.get('course');
+        
+        if (courseParam) {
+            const courseSelect = document.getElementById('courseInterest');
+            if (courseSelect) {
+                courseSelect.value = courseParam;
+            }
+        }
+        
+        // Form submission handler
+        document.getElementById('enrollmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const course = document.getElementById('courseInterest').value;
+            const qualification = document.getElementById('qualification').value;
+            
+            if (!firstName || !lastName || !email || !phone || !course) {
+                showMessage('Please fill in all required fields.', 'error');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showMessage('Please enter a valid email address.', 'error');
+                return;
+            }
+            
+            // Success message
+            showMessage(`Thank you ${firstName} ${lastName}! Your enrollment request for ${course} has been received. Our admissions team will contact you within 24 hours.`, 'success');
+            
+            // Reset form
+            this.reset();
+            
+            // Scroll to message
+            const formMessage = document.getElementById('formMessage');
+            formMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+        
+        function showMessage(message, type) {
+            const formMessage = document.getElementById('formMessage');
+            formMessage.textContent = message;
+            formMessage.className = `form-message ${type}`;
+            
+            setTimeout(() => {
+                formMessage.textContent = '';
+                formMessage.className = 'form-message';
+            }, 8000);
+        }
+    </script>
+</body>
+</html>
